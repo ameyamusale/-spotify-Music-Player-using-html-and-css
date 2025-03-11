@@ -1,0 +1,75 @@
+.playlist
+{
+padding: 10px 30px;
+
+}
+.playlist 
+{   color: #fff;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.playlist 
+{   color: #fff;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+h2{
+    font-size: 15px;
+    color: #fff;
+}
+h1{
+ font-size: 25px;
+ font-family: Arial, Helvetica, sans-serif
+}
+.playlist .card
+{
+
+    display: flex;
+    overflow: hidden;
+    gap: 20px;
+}
+.playlist .card .item 
+{
+    width: 200px;
+    min-width: 280px;
+   background-color: #292626;
+   cursor: pointer;
+  padding: 15px;
+  border-radius: 6px;
+}
+.playlist .card .item:hover
+{
+    background-color: rgb(67, 65, 65);
+}
+.playlist .card .item img 
+{
+    width: 100%;
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
+p
+{
+color: #6b6161;
+font-size: 14px;
+margin-top: 10px;
+}
+p:hover
+{
+text-decoration: underline;
+}
+.playlist .play-btn i
+{
+    color: black;
+    position: absolute;
+    background-color: rgb(45, 250, 18);
+    padding: 20px;
+    border-radius: 50%;
+    margin-left: 220px;
+    margin-top: -60px;
+    opacity: 0;
+ }
+.playlist .card .item .play-btn i:hover
+{
+  opacity: 1;
+  transform: translate(-20px);
+ }
