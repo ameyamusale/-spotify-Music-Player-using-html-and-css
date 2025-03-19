@@ -5,6 +5,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
 
 body
@@ -19,11 +20,13 @@ body
    left: 0;
    bottom: 0;
    padding: 10px;
+   position:absolute;
 }
 .sidebar-nav
 {
     background-color: #0f0f0f;
     margin-bottom: 20px;
+    
 }
 .sidebar-nav .logo {
     width: 120px;
@@ -136,11 +139,15 @@ width: 600px;
 }
 .main-section
 {
-
-  margin-left: 200px;
-  height: 300vh;
+  margin-left: 300px;
+  height: 100vh;
   background-color: #191919;
-  overflow: auto;
+  overflow-y: auto;
+ position:fixed;
+  margin-bottom: 100px;
+ justify-content: right; 
+
+ 
 }
 .main-section .top-nav
 {
@@ -186,3 +193,18 @@ width: 600px;
 {
 margin-right: 15px;
 }
+.main-section-scroll{
+    height: 120px;
+    overflow-y: auto;
+    }
+    .main-section-scroll::-webkit-scrollbar
+       {
+        
+        background: transparent;
+        }
+    
+    .main-section-scroll:hover::-webkit-scrollbar-thumb
+           {
+            background: #302f2f;
+            width: 10px;
+            }
